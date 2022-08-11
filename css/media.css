@@ -4,15 +4,17 @@
     .stick-block-phone {
         width: 100%;
         background-color: #f1f1f1;
-        padding: 30px;
+        padding: 20px;
         position: fixed;
         bottom: 0;
         z-index: 777;
+        display: block;
+        
     }
 
     .btns-stick{
         display: flex;
-        justify-content: center;    
+        justify-content: center;  
     }
 
     /*-----------------------------navigation----------------------------*/
@@ -239,6 +241,8 @@
         position: fixed;
         bottom: 0;
         z-index: 777;
+        display: block;
+        
     }
 
     .btns-stick{
