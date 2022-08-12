@@ -851,3 +851,100 @@ p{
 .footer-mb p{
     width: 100%;
 }
+
+
+
+/*------------------------CONTANT--------------------------------*/
+
+.appliance-repair-page-general{
+    padding: 60px 0;
+    margin: 0 auto;
+    background-color: #fff;
+    display: flex;
+    gap: 20px;
+}
+
+
+.descr-row {
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 10px;
+    width: 66.66%;
+}
+
+.sitebar-row {
+    display: flex;
+    flex-flow: column wrap;
+    margin-bottom: 10px;
+    width: 33.33%;
+}
+
+.general-pic img{
+    width: 100%;
+}
+
+.text-description-page{
+    margin-top: 40px;
+}
+
+.probl span{
+    font-size: 16px;
+    font-weight: 700;
+    color: #3C3935;
+}
+
+.probl p{
+    margin-top: 7px;
+}
+
+.probl{
+    margin-bottom: 20px;
+}
+
+.probl:nth-child(4){
+    margin-bottom: 0;
+}
+
+.problems{
+    padding: 40px;
+    background-color: #F9F9F9;
+    margin-top: 35px;
+}
+
+.issues{
+    margin-top: 50px;
+}
+
+.issues h3{
+    font-size: 25px;
+    font-weight: 700;
+    color: #3C3935;
+}
+
+.issues-container ol li{
+    font-size: 14px;
+    font-weight: 600;
+    color: #3C3935;
+    letter-spacing: 0.3px;
+    line-height: 35px;
+    list-style: none;
+}
+
+.issues-container span{
+    content: "\2713";
+    margin-right: 5px;
+    color: #FDC100;
+}
+
+.issues-container{
+    margin-top: 30px;
+    display: flex;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
