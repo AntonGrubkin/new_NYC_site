@@ -124,6 +124,8 @@
     }
 
 
+
+
     /*-------------------------------PREVILEGY------------------------------*/
 
     .prev{
@@ -412,6 +414,14 @@
     .cont-services{
         gap: 40px;
         width: 100%;
+    }
+
+    .welc-banner{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2px;
+        text-align: center;
+        justify-content: center;
     }
 
 
