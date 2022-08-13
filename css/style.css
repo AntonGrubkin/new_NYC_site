@@ -861,7 +861,7 @@ p{
     margin: 0 auto;
     background-color: #fff;
     display: flex;
-    gap: 20px;
+    gap: 40px;
 }
 
 
@@ -939,8 +939,40 @@ p{
 .issues-container{
     margin-top: 30px;
     display: flex;
-    gap: 40px;
+    gap: 30px;
     margin-bottom: 40px;
+}
+
+.repair-tags ul {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.repair-tags li a{
+    font-size: 14px;
+    font-weight: 600;
+    color: #3C3935;
+
+}
+
+.repair-tags li {
+    list-style: none;
+}
+
+.repair-tags{
+    background-color: #F8F8F8;
+    padding: 40px;
+}
+
+.repair-tags span{
+    font-size: 19px;
+    font-weight: 600;
+    color: #3C3935;
+}
+
+.tittle-tags{
+    margin-bottom: 25px;
 }
 
 
