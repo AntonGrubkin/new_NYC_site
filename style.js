@@ -1,4 +1,4 @@
-const burger = document.querySelector('.burger');
+const burger = document.querySelector('.nav-icon');
 const navMenu = document.querySelector('.nav-menu');
 
 burger.addEventListener('click', () => {
@@ -20,10 +20,22 @@ document.querySelectorAll(".nav-link").forEach((link) =>
  
 );
 
+$(document).ready(function() {
+  $(".nav-icon").on("click", function() {
+    $(this).toggleClass("closed");
+  })
+})
+
+
+
 $(window).scroll(function(){
     if ($(this).scrollTop() > 80) {
         $('.header-nav-container').addClass('fixed');
     } else {
         $('.header-nav-container').removeClass('fixed');
     }
-    });
+});
+
+
+
+

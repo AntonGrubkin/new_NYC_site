@@ -34,28 +34,33 @@ a{
 
 /*navigation*/
 
-.burger{
+.nav-icon {
     display: none;
+    margin: 0;
+    width: 35px;
 }
 
-.bar{
+.nav-icon:after,
+.nav-icon:before,
+.nav-icon div {
+    background-color: rgb(58, 58, 58);
+    border-radius: 3px;
+    content: "";
     display: block;
-    width: 1.5rem;
-    color: #676767;
     height: 3px;
-    margin:6px;
-    background-color: #3b3b3b;
-    -webkit-transition: 0.5s;
+    margin: 8px 0;
+    transition: all 0.3s ease-in-out;
 }
 
-.bar:nth-child(1){
-    width: 100%;
+/*Note: If you changed width of lines of head of arrow, then you also might have to set the transformation of those line accordingly*/
+.nav-icon.closed:before {
+    transform: translateY(5px) translateX(-5px) rotate(130deg);
+    width: 18px;
 }
-.bar:nth-child(2){
-    width: 200%;
-}
-.bar:nth-child(3){
-    width: 300%;
+
+.nav-icon.closed:after {
+    transform: translateY(-5px) translateX(-5px) rotate(-130deg);
+    width: 18px;
 }
 
 .nav-menu li{
@@ -116,13 +121,14 @@ a{
     top: -150px;
     transition: top 1s;
     z-index: 9999;
-
 }
+
 .header-nav-container.fixed{
     position: fixed;
     width: 100%;
     background-color: #ffffff;
     top: 0;
+
 }
 
 
