@@ -36,8 +36,6 @@
         display: block;
     }
 
-
-
     
     .nav-menu{
         width: 100%;
@@ -792,6 +790,11 @@
     }
     .btns-inner-brands a{
         width: 100%;
+    }
+
+    .price-descr h3 {
+
+        margin-bottom: 20px;
     }
     
 }
