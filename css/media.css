@@ -230,8 +230,66 @@
         flex-direction: column;
         align-items: center;
     }
+
+
+    /*-------------------------------PAGE REPAIR------------------------------*/
+
+    .descr-row {
+        flex-flow: wrap;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .sitebar-row{
+        width: 100%;
+    }
+
+    .appliance-repair-page-general{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .repair-tags ul{
+        display: flex;
+        flex-flow: row wrap;
+        gap: 20px;
+    }
+    .btns-warranty{
+        flex-direction: row;
+    }
+
+    /*-------------------------------PAGE PRICE------------------------------*/
+
+    .photo-price{
+        height: 450px;
+    }
+
+    .price-descr{
+        text-align: center;
+    }
+
+    .btns-price{
+        justify-content: center;
+    }
+
+    .btns-price a{
+        width: 100%;
+    }
     
+    .btns-inner-brands{
+        justify-content: center;
+    }
+    
+    .btns-inner-brands a{
+        width: 100%;
+    }
 }
+
+
+
+
+
+
 
 
 @media screen and (min-device-width: 360px) and (max-device-width: 767px) {
@@ -643,5 +701,122 @@
         width: 100%;
     }
 
+
+    /*-------------------------------PAGE REPAIR------------------------------*/
+
+    .descr-row {
+        flex-flow: wrap;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    
+    .sitebar-row{
+        width: 100%;
+    }
+    
+    .appliance-repair-page-general{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .repair-tags ul{
+        display: flex;
+        flex-flow: row wrap;
+        gap: 20px;
+    }
+    .btns-warranty{
+        flex-direction: row;
+    }
+
+    .issues-container {
+        flex-flow: row wrap;
+        gap: 0px;
+        margin-bottom: 40px;
+        margin-top: 18px;
+    }
+
+    .issues h3{
+        line-height: 34px;
+        font-size: 25px;
+    }
+
+    .description-repair-page h2{
+        font-size: 25px;
+        line-height: 34px;
+        font-weight: 700;
+    }
+
+    .brand-repair-page h2{
+        font-size: 25px;
+        line-height: 34px;
+        font-weight: 700;
+    }
+
+
+
+    .btns-warranty {
+        flex-direction: column;
+    }
+
+    .repair-warranty span {
+        font-size: 25px;
+        font-weight: 700;
+        color: #3C3935;
+    }
+
+    .repair-warranty {
+        padding: 30px;
+        background-color: #F9F9F9;
+        margin-top: 40px;
+    }
+
+    /*-------------------------------PAGE PRICE------------------------------*/
+
+    .photo-price{
+        height: auto;
+    }
+
+    .block-price{
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+
+    .price-descr{
+        text-align: center;
+    }
+
+    .btns-price{
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .btns-price a{
+        width: 100%;
+    }   
+    
+    .price-descr {
+        padding: 40px;
+        background-color: #F8F8F8;
+    }
+
+    .price-banner {
+        flex-direction: column;
+        gap: 15px;
+        padding: 25px 20px;
+    }
+
+    .text-banner-welc span p {
+        font-size: 14px;
+    }
+
+    .general-pic-brand img{
+        width: 100%;
+    }
+
+    .btns-inner-brands{
+        flex-direction: column;
+    }
+    .btns-inner-brands a{
+        width: 100%;
+    }
     
 }
