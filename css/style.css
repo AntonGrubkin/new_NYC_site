@@ -52,7 +52,6 @@ a{
     transition: all 0.3s ease-in-out;
 }
 
-/*Note: If you changed width of lines of head of arrow, then you also might have to set the transformation of those line accordingly*/
 .nav-icon.closed:before {
     transform: translateY(5px) translateX(-5px) rotate(130deg);
     width: 18px;
@@ -454,8 +453,28 @@ p{
 }
 
 .tittle-depend{
-    padding: 240px 0 100px;
+    padding: 150px 0 150px;
+    text-align: center;
 }
+
+.tittle-depend h1{
+    display: inline;
+    font-size: 46px;
+    line-height: 72px;
+    letter-spacing: 0.7px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #1C1912;
+    box-shadow: -18px 0 0 #1c1912, 18px 0 0 #1c1912;
+    padding: 10px 0;
+}
+
+.tittle-depend span{
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 45px;
+}
+
 
 
 /*-------------------------------STATISTIC------------------------------*/
@@ -631,14 +650,27 @@ p{
     list-style: none;
 }
 
+.brand-item ul li a{
+    font-size: 14px;
+    font-weight: 600;
+    color: #3C3935;
+    letter-spacing: 0.7px;
+    line-height: 35px;
+    list-style: none;
+}
+
+.brand-item ul li{
+    list-style: none;
+}
+
 .brands-proposition{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     gap: 20px;
     max-inline-size: 1200px;
     margin-inline: auto;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .brand-item{
@@ -1157,6 +1189,18 @@ p{
 .price-banner{
     margin-top: 25px;
 }
+
+
+.inner-block-contacts h3{
+    font-size: 25px;
+    font-weight: 700;
+    color: #3C3935;
+    margin-bottom: 20px;
+    line-height: 37px;
+}
+
+
+
 
 
 
