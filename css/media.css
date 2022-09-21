@@ -796,5 +796,14 @@
 
         margin-bottom: 20px;
     }
+
+    .banner-depend span{
+        display: none;
+    }
+
+    .banner-depend h1{
+        font-size: 43px;
+        line-height: 63px;
+    }
     
 }

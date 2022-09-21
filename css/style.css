@@ -34,6 +34,8 @@ a{
 
 /*navigation*/
 
+
+
 .nav-icon {
     display: none;
     margin: 0;
@@ -659,6 +661,11 @@ p{
     list-style: none;
 }
 
+.brand-item ul li a:hover{
+    color: #FDC100;
+    transition: 0.25s;
+}
+
 .brand-item ul li{
     list-style: none;
 }
@@ -844,6 +851,11 @@ p{
     gap: 15px;
     flex-direction: column;
     margin-top: 30px;
+}
+
+.btn-ftr a{
+    width: 270px;
+
 }
 
 .ftr-logo{
