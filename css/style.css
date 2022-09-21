@@ -815,6 +815,37 @@ p{
     margin-inline: auto;
 }
 
+.block-social-footer {
+    margin-bottom: 25px;
+    color: #3C3935;
+    font-size: 21px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-top: 30px;
+    font-weight: 400;
+}
+
+.block-social-footer i:nth-child(2) {
+    font-size: 18px;
+}
+
+.block-social-footer i{
+    font-weight: 700;
+}
+
+.copiright {
+    font-size: 12px;
+    line-height: 20px;
+    color: #696762;
+}
+
+.ftr-text p{
+    font-weight: 600;
+}
+
+
+
 .bl-ftr{
     display: flex;
     flex-direction: column;
@@ -1210,6 +1241,17 @@ p{
     margin-bottom: 20px;
     line-height: 37px;
 }
+
+
+.pic-areas{
+    width: 100%;
+    height: 300px;
+    background: url('../image/areas.jpg') no-repeat center top / cover;
+}
+
+
+
+
 
 
 
